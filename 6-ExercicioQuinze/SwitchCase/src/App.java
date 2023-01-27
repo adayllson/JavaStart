@@ -1,5 +1,3 @@
-package exercicioquinze;
-
 import java.util.Scanner;
 
 public class App {
@@ -9,7 +7,7 @@ public class App {
         int numero;
 
         Scanner leitorScanner = new Scanner(System.in);
-
+        System.out.println("Digite um valor: ");
         numero = leitorScanner.nextInt();
 
         if (numero >= 100 && numero <= 200) {
