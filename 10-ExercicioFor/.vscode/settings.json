@@ -1,0 +1,6 @@
+{
+    "java.project.sourcePaths": [
+        "app/src/main/java/exerciciofor"
+    ],
+    "java.compile.nullAnalysis.mode": "disabled"
+}
