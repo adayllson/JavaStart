@@ -11,13 +11,15 @@ public class App {
     public static void main(String[] args) {
         
         String nomeProduto;
-        float precoCusto, precoVenda, mediaCusto, mediaVenda;
+        float precoCusto;
+        float precoVenda;
         float totalCusto = 0.0f;
         float totalVenda = 0.0f;
        
         Scanner leitor = new Scanner(System.in);
-
-        for(int i = 0; i < 40; i++){
+        
+        int i = 0;
+        for (; i < 40; i++){
 
             System.out.println("Digite o nome do produto: ");
             nomeProduto = leitor.nextLine();
@@ -42,6 +44,11 @@ public class App {
                     System.out.println("Houve lucro.");
                 }
             }
+
+            System.out.println(nomeProduto + ", preço de custo = " + precoCusto + ", preço de venda = " + precoVenda);
+
+            System.out.println("A média do preço de custo é: " + (totalCusto / i));
+            System.out.println("A média do preço de venda é: " + (totalVenda/ i));
             
         }
 
