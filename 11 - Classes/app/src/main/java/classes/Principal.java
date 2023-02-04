@@ -14,6 +14,7 @@ public class Principal {
 
         System.out.println("Digite o peso da pessoa: ");
         objetPessoa.setPeso(leitor.nextFloat());
+        
         System.out.println("Digite a altura da pessoa: ");
         objetPessoa.setAltura(leitor.nextFloat());
 
