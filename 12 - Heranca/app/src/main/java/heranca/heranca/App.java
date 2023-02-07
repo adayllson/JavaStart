@@ -1,5 +1,5 @@
 
-package heranca;
+package heranca.heranca;
 
 import java.util.Date;
 
