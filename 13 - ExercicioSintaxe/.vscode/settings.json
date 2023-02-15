@@ -1,0 +1,6 @@
+{
+    "java.project.sourcePaths": [
+        "app/src/main/java/exerciciosintaxe"
+    ],
+    "java.compile.nullAnalysis.mode": "disabled"
+}

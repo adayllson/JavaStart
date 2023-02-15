@@ -1,0 +1,7 @@
+{
+    "java.project.sourcePaths": [
+        ".gradle",
+        "app"
+    ],
+    "java.compile.nullAnalysis.mode": "disabled"
+}
